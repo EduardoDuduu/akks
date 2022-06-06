@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*
+#FF0000
+#BF0000
+#800000
+#400000
+#E60000
+*/
+
+:root {
+    --cor0: #FF0000;
+    --cor1: #CC0000;
+    --cor2: #990000;
+    --cor3: #660000;
+    --cor4: #330000;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+header {
+    background-color: var(--cor2);
+}
+
+header > div {
+    text-align: center;
+
+}
+
+header h1 {
+    text-align: center;
+    font-size: medium;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+}
+
+main {
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
