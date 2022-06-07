@@ -38,6 +38,7 @@ header > img.logo-topo {
 }
 
 header h1 {
+    color: white;
     padding: 15px;
     text-align: center;
     font-size: medium;
@@ -51,7 +52,7 @@ nav {
 
 nav > a {
     color: var(--cor0);
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     font-size: 0.9em;
     text-decoration: none;
@@ -61,7 +62,7 @@ nav > a {
 
 nav > a:hover {
     background-color: var(--cor3);
-    color: black
+    color: white;
 }
 
 main {
@@ -100,14 +101,27 @@ div.map > iframe {
 
 footer {
     background-color: black;
-    color: white;
     text-align: center;
+    font-size: 0.8em; padding: 5px;
+    color: white;
 }
+
+footer.fixar-rodape {
+    background-color: black;
+    text-align: center;
+    font-size: 0.8em; padding: 5px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+  }
 
 footer a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 footer a:hover {
