@@ -63,11 +63,12 @@ nav > a {
 nav > a:hover {
     background-color: var(--cor3);
     color: white;
+    text-decoration: underline;
 }
 
 main {
     min-width: 300px;
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     margin-bottom: 15px;
     padding: 20px;
@@ -87,7 +88,7 @@ div.map {
     background-color: rgb(226, 217, 217);
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 50%;
+    padding-bottom: 75%;
     position: relative;
 }
 
