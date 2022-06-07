@@ -29,26 +29,88 @@ header {
     background-color: var(--cor2);
 }
 
-header > div {
-    text-align: center;
+header > img.logo-topo {
+    padding-top: 10px;
+    width: 100px;
+    display: block;
+    margin: auto;
 
 }
 
 header h1 {
+    padding: 15px;
     text-align: center;
     font-size: medium;
 }
 
 nav {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.356);
+}
+
+nav > a {
+    color: var(--cor0);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: black
 }
 
 main {
-    background-color: white;
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: rgb(226, 217, 217);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.4em;
+    font-size: 1em;
+}
+
+div.map {
+    background-color: rgb(226, 217, 217);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.map > iframe {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
 }
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: darkgray;
 }
