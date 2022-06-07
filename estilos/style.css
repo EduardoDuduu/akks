@@ -51,7 +51,7 @@ nav {
 }
 
 nav > a {
-    color: var(--cor0);
+    color: white;
     padding: 10px;
     border-radius: 5px;
     font-size: 0.9em;
