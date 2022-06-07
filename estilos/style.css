@@ -84,20 +84,28 @@ main p {
     font-size: 1em;
 }
 
+main img.evento{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
 div.map {
     background-color: rgb(226, 217, 217);
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 75%;
+    padding-bottom: 50%;
     position: relative;
 }
 
 div.map > iframe {
     position: absolute;
-    top: 1%;
-    left: 1%;
-    width: 98%;
-    height: 98%;
+    top: 2%;
+    left:6%;
+    width: 88%;
+    height: 88%;
 }
 
 footer {
@@ -107,7 +115,7 @@ footer {
     color: white;
 }
 
-footer.fixar-rodape {
+/*footer.fixar-rodape {
     background-color: black;
     text-align: center;
     font-size: 0.8em; padding: 5px;
@@ -117,7 +125,7 @@ footer.fixar-rodape {
     height: 20px;
     position: fixed;
     width: 100%;
-  }
+  }*/
 
 footer a {
     text-decoration: none;
