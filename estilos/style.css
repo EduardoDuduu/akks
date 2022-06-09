@@ -86,6 +86,18 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
 }
 
+main h1#home-page {
+    font-family: var(--fonte-destaque);
+}
+
+main h2#evento-foto {
+    padding-bottom: 5px;
+}
+
+main h2#convite {
+    padding-top: 5px;
+}
+
 main p {
     margin: 15px 0px;
     text-align: justify;
@@ -106,7 +118,7 @@ div.map {
     background-color: rgb(226, 217, 217);
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     position: relative;
 }
 
